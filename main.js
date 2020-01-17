@@ -13,8 +13,8 @@ let bandNumber = 1
 
 const takeNumber = function (bandName) {
     
-    console.log(bandNumber + ". " + bandName);
-    bandNumber++;
+    return bandNumber++ + ". " + bandName;
+    
 
 }
 
